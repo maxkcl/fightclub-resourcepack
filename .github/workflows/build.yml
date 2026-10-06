@@ -5,6 +5,9 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -21,8 +24,18 @@ jobs:
             -x "fightclub-resourcepack.zip" \
             -x "README.md"
 
-      - name: Upload resource pack
-        uses: actions/upload-artifact@v4
-        with:
-          name: fightclub-resourcepack
-          path: fightclub-resourcepack.zip
+      - name: Delete previous release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release delete resourcepack-latest --yes || true
+
+      - name: Create release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create resourcepack-latest \
+            fightclub-resourcepack.zip \
+            --title "Fightclub Resource Pack" \
+            --notes "Latest version of the Fightclub resource pack." \
+            --latest
