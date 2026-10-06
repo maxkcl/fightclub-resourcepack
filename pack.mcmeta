@@ -1,0 +1,11 @@
+{
+  "pack": {
+    "description": "A custom Minecraft resource pack",
+    "pack_format": 97,
+    "min_format": [
+      97,
+      0
+    ],
+    "max_format": 97
+  }
+}
