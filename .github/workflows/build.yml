@@ -46,6 +46,4 @@ jobs:
             fightclub-resourcepack.zip \
             --title "Fightclub Resource Pack" \
             --notes "Latest version of the Fightclub resource pack." \
-
-          SHA-1: ${{ steps.sha1.outputs.sha1 }}" \
             --latest
