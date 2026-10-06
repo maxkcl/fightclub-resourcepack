@@ -24,11 +24,19 @@ jobs:
             -x "fightclub-resourcepack.zip" \
             -x "README.md"
 
+      - name: Calculate SHA-1
+        id: sha1
+        run: |
+          SHA1=$(sha1sum fightclub-resourcepack.zip | cut -d ' ' -f 1)
+          echo "SHA-1: $SHA1"
+          echo "sha1=$SHA1" >> "$GITHUB_OUTPUT"
+
       - name: Delete previous release
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           gh release delete resourcepack-latest --yes || true
+          git push --delete origin resourcepack-latest || true
 
       - name: Create release
         env:
@@ -38,4 +46,6 @@ jobs:
             fightclub-resourcepack.zip \
             --title "Fightclub Resource Pack" \
             --notes "Latest version of the Fightclub resource pack." \
+
+          SHA-1: ${{ steps.sha1.outputs.sha1 }}" \
             --latest
