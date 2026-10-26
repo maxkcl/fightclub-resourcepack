@@ -1,0 +1,42 @@
+{
+    "music.accelerate": {
+        "sounds": [
+            {
+                "name": "music/accelerate",
+                "stream": true
+            }
+        ]
+    },
+    "music.betty_boop": {
+        "sounds": [
+            {
+                "name": "music/betty_boop",
+                "stream": true
+            }
+        ]
+    },
+    "music.bloons_skates": {
+        "sounds": [
+            {
+                "name": "music/bloons_skates",
+                "stream": true
+            }
+        ]
+    },
+    "music.goodbye": {
+        "sounds": [
+            {
+                "name": "music/goodbye",
+                "stream": true
+            }
+        ]
+    },
+    "music.yoshi_athletic": {
+        "sounds": [
+            {
+                "name": "music/yoshi_athletic",
+                "stream": true
+            }
+        ]
+    }
+}
