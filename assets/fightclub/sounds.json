@@ -2,7 +2,7 @@
     "music.accelerate": {
         "sounds": [
             {
-                "name": "music/accelerate",
+                "name": "fightclub:music/accelerate",
                 "stream": true
             }
         ]
@@ -10,7 +10,7 @@
     "music.betty_boop": {
         "sounds": [
             {
-                "name": "music/betty_boop",
+                "name": "fightclub:music/betty_boop",
                 "stream": true
             }
         ]
@@ -18,7 +18,7 @@
     "music.bloons_skates": {
         "sounds": [
             {
-                "name": "music/bloons_skates",
+                "name": "fightclub:music/bloons_skates",
                 "stream": true
             }
         ]
@@ -26,7 +26,7 @@
     "music.goodbye": {
         "sounds": [
             {
-                "name": "music/goodbye",
+                "name": "fightclub:music/goodbye",
                 "stream": true
             }
         ]
@@ -42,7 +42,7 @@
     "music.yoshi_athletic": {
         "sounds": [
             {
-                "name": "music/yoshi_athletic",
+                "name": "fightclub:music/yoshi_athletic",
                 "stream": true
             }
         ]
