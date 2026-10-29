@@ -1,0 +1,50 @@
+{
+    "music.accelerate": {
+        "sounds": [
+            {
+                "name": "fightclub:music/accelerate",
+                "stream": true
+            }
+        ]
+    },
+    "music.betty_boop": {
+        "sounds": [
+            {
+                "name": "fightclub:music/betty_boop",
+                "stream": true
+            }
+        ]
+    },
+    "music.bloons_skates": {
+        "sounds": [
+            {
+                "name": "fightclub:music/bloons_skates",
+                "stream": true
+            }
+        ]
+    },
+    "music.goodbye": {
+        "sounds": [
+            {
+                "name": "fightclub:music/goodbye",
+                "stream": true
+            }
+        ]
+    },
+    "music.kindness_luigi": {
+        "sounds": [
+            {
+                "name": "fightclub:music/kindness_luigi",
+                "stream": true
+            }
+        ]
+    },
+    "music.yoshi_athletic": {
+        "sounds": [
+            {
+                "name": "fightclub:music/yoshi_athletic",
+                "stream": true
+            }
+        ]
+    }
+}
