@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:item/generated",
     "textures": {
-        "layer0": "minecraft:item/fish_burnt_fish"
+        "layer0": "minecraft:item/fish/fish_burnt_fish"
     }
 }

@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:item/generated",
     "textures": {
-        "layer0": "minecraft:item/fish_pond_cod"
+        "layer0": "minecraft:item/fish/fish_pond_cod"
     }
 }
