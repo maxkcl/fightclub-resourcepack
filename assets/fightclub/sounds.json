@@ -31,6 +31,14 @@
             }
         ]
     },
+    "music.kindness_luigi": {
+        "sounds": [
+            {
+                "name": "fightclub:music/kindness_luigi",
+                "stream": true
+            }
+        ]
+    },
     "music.yoshi_athletic": {
         "sounds": [
             {
