@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:item/generated",
     "textures": {
-        "layer0": "minecraft:item/fish/fish_oak_minnow"
+        "layer0": "minecraft:item/area2_fish_hub/fish_lighttail"
     }
 }
