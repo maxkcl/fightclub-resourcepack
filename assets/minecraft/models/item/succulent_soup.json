@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:item/generated",
     "textures": {
-        "layer0": "minecraft:item/area2_fish_hub/fish_lighttail"
+        "layer0": "minecraft:item/succulent_soup"
     }
 }
