@@ -1,6 +1,6 @@
 {
     "model": {
         "type": "minecraft:model",
-        "model": "minecraft:item/area1_plain_pond/fish_pond_salmon"
+        "model": "minecraft:item/fish_pond_salmon"
     }
 }
