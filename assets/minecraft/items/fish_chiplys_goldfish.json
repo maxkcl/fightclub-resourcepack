@@ -1,6 +1,6 @@
 {
     "model": {
         "type": "minecraft:model",
-        "model": "minecraft:item/fish_chiplys_goldfish"
+        "model": "minecraft:item/area1_plain_pond/fish_chiplys_goldfish"
     }
 }
