@@ -1,4 +1,9 @@
 {
+  "biome.minecraft.plain_pond": "Plain Pond",
+  "biome.minecraft.fish_hub": "Fish Hub",
+  "biome.minecraft.greenwood": "Greenwood",
+  "biome.minecraft.shaded_grove": "Shaded Grove",
+  "biome.minecraft.pale_woodlands": "Pale Woodlands",
   "enchantment.fishgame.blessingoffish": "Blessing of Fish",
   "enchantment.fishgame.bait": "Bait",
   "enchantment.fishgame.greed": "Greed",
