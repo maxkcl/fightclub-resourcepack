@@ -1,0 +1,6 @@
+{
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/coin_bags/medium_coin_bag"
+    }
+}
